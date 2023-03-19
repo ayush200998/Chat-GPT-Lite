@@ -58,11 +58,6 @@ function generateUniqueId() {
  * @returns 
  */
 function chatStripe(isAi, value, uniqueId) {
-  console.log('Inside func', {
-    isAi,
-    value,
-    uniqueId,
-  })
   return (
     `
       <div class='wrapper ${isAi && 'ai'}'> 
