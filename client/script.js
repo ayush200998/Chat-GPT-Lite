@@ -100,7 +100,7 @@ const handleSubmit = async(e) => {
   loader(messageDiv);
 
   // Send the api request to BE server
-  const response = await fetch('https://ak-chatgpt3-lite-190323.onrender.com', {
+  const response = await fetch('http://localhost:5000', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
